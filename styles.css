@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.leaf_background {
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.names {
+    display: flex;
+    width: 40%;
+    
+}
+
+.contacts{
+    display: flex;
+    width: 40%;
+    
+}
+
+.passwords {
+    display: flex;
+    width: 40%;
+}
+
+label::before {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
