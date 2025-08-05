@@ -7,37 +7,43 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div>
-    <image src="./images/leaf_background.jpg" class="leaf_background"/>
+<div class="side_image">
+    <div class="img_background">
+        <image src="./images/odin-lined.png" class="odin_image"/>
+        <p>ODIN</p>
+    </div>   
 </div>
 <div class="signup_form">
 <h1>This is not a real online service! You know you need something
     like this in your life to help realize your deppest dreams.
-    sign up <i>now</i> to get started.
+    </br>
+    Sign up <i>now</i> to get started.
+    </br>
     </br>
     You <i>know</i> you want to.
 </h1>
 <form >
+    
     <div class="signup">
-    <legend>Let's do this!</legend>
+        <legend>Let's do this!</legend>
         <div class="names">
             <label for="firstname">FIRST NAME</label>
-            <input type="text" id="fistname" name="firstname"/>
-            <label for="lastname">LAST NAME</label>
-            <input type="text" id="fistname" name="lastname"/>
-        </div>
+            <input type="text" id="fistname" name="firstname" required/>
 
-        <div class="contacts">
             <label for="email">EMAIL</label>
-            <input type="email" id="email" name="email"/>
+            <input type="email" id="email" name="email" required/>
+
             <label for="phonenumber">PHONE NUMBER</label>
-            <input type="number" id="phonenumber" name="phonenumber"/>
-        </div>
-        <div class="passwords">
+            <input type="number" id="phonenumber" name="phonenumber" min="11" required/>
+
+            <label for="lastname">LAST NAME</label>
+            <input type="text" id="fistname" name="lastname" required/>
+        
             <label for="password">PASSWORD</label>
-            <input type="password" id="password" name="password"/>
+            <input type="password" id="password" name="password" required/>
+            
             <label for="password">CONFIRM PASSWORD</label>
-            <input type="password" id="password" name="password"/>
+            <input type="password" id="password" name="password" required/>
         </div>
     </div>
     <button type="submit">Create Account</button>
